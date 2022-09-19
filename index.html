@@ -1,0 +1,88 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<script src="https://code.jquery.com/jquery-3.2.1.js" integrity="sha256-DZAnKJ/6XZ9si04Hgrsxu/8s717jcIzLy3oi35EouyE=" crossorigin="anonymous"></script>
+<link rel="stylesheet" href="main.css">
+<title>電卓</title>
+</head>
+
+<body>
+  <div>
+    <p id="textbox">0</p>
+  </div>
+  
+  <table>
+    <tr>
+      <td>
+        <button class="click-button" value="7" onclick="clickbutton(this.value)">7</button>
+      </td>
+      <td>
+        <button class="click-button" value="8" onclick="clickbutton(this.value)">8</button>
+      </td>
+      <td>
+        <button class="click-button" value="9" onclick="clickbutton(this.value)">9</button>
+      </td>
+      <td>
+        <button class="click-button" value="+" onclick="clickbutton(this.value)">+</button>
+      </td>
+    </tr>
+
+    <tr>
+      <td>
+        <button class="click-button" value="4" onclick="clickbutton(this.value)">4</button>
+      </td>
+      <td>
+        <button class="click-button" value="5" onclick="clickbutton(this.value)">5</button>
+      </td>
+      <td>
+        <button class="click-button" value="6" onclick="clickbutton(this.value)">6</button>
+      </td>
+      <td>
+        <button class="click-button" value="-" onclick="clickbutton(this.value)">-</button>
+      </td>
+    </tr>
+
+    <tr>
+      <td>
+        <button class="click-button" value="1" onclick="clickbutton(this.value)">1</button>
+      </td>
+      <td>
+        <button class="click-button" value="2" onclick="clickbutton(this.value)">2</button>
+      </td>
+      <td>
+        <button class="click-button" value="3" onclick="clickbutton(this.value)">3</button>
+      </td>
+      <td>
+        <button class="click-button" value="*" onclick="clickbutton(this.value)">*</button>
+      </td>
+    </tr>
+
+    <tr>
+      <td>
+        <button class="click-button" value="0" onclick="clickbutton(this.value)">0</button>
+      </td>
+      <td>
+        <button class="click-button" value="00" onclick="clickbutton(this.value)">00</button>
+      </td>
+      <td>
+        <button class="click-button" value="." onclick="clickbutton(this.value)">.</button>
+      </td>
+      <td>
+        <button class="click-button" value="/" onclick="clickbutton(this.value)">/</button>
+      </td>
+    </tr>
+
+    <tr>
+      <td colspan="2">
+        <button class="result-button" value="AC" onclick="clickbutton(this.value)">AC</button>
+      </td>
+      <td colspan="2">
+        <button class="result-button" value="=" onclick="clickbutton(this.value)">=</button>
+      </td>
+    </tr>
+  </table>
+
+<script src="main.js"></script>
+</body>
+</html>

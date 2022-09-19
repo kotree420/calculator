@@ -1,0 +1,44 @@
+table {
+  border-collapse: collapse;
+}
+
+td {
+  padding: 1px;
+  border: solid 1px transparent;
+}
+
+td[colspan="2"] {
+  text-align: center;
+}
+
+#textbox {
+  background-color: #444444;
+  color: #FFFFFF;
+  padding: 5px;
+  font-size: 20px;
+  margin: 0;
+  height: 30px;
+  width: 403px;
+  text-align: right;
+}
+
+.click-button {
+  height: 30px;
+  width: 100px;
+}
+
+.result-button {
+  height: 30px;
+  width: 202px;
+}
+
+.click-button,.result-button {
+  font-size: 20px;
+  border: solid 1px #444444;
+  border-radius: 5px;
+}
+
+.click-button:hover,
+.result-button:hover {
+  border: solid 1px #0000DD;
+}
